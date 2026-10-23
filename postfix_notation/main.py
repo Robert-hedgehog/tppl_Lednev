@@ -25,12 +25,16 @@ def pf_tilde(a, b, stack):
         return abs(a - b)
     return (sum(stack) + a + b) ** 2
 
+def pf_vosklzn(a, b):
+    return a ** b
+
 
 OPERATIONS = {
     "+": pf_add,
     "-": pf_sub,
     "*": pf_mul,
     "/": pf_div,
+    "!": pf_vosklzn
 }
 
 

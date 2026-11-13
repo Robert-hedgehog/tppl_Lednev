@@ -51,11 +51,11 @@ python3 -m venv .venv
   ```powershell
   .venv\Scripts\Activate.ps1
   ```
-
-Для запуска самого анализатора сторонние библиотеки не требуются. Для запуска тестов установите `pytest` и `pytest-cov`:
+  
+Установите необходимые зависимости:
 
 ```bash
-pip install pytest pytest-cov
+pip install -r requirements.txt
 ```
 
 ### Запуск программы
